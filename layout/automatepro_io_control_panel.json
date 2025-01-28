@@ -1,0 +1,461 @@
+{
+  "configById": {
+    "Image!4jaj8f5": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/camera/cam1/h264/video"
+      },
+      "foxglovePanelTitle": "CAM 1"
+    },
+    "3D!38j3h5o": {
+      "cameraState": {
+        "distance": 0.7504827842170999,
+        "perspective": true,
+        "phi": 71.39880469508478,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0.10229228126781606,
+          -0.02512926537196837,
+          -1.7850569405194223e-16
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": -35.18662056079848,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {
+        "frame:world": {
+          "visible": false
+        }
+      },
+      "topics": {
+        "/robot_description": {
+          "visible": true
+        }
+      },
+      "layers": {
+        "grid": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "7d7d3219-4b5e-42d9-a94a-c3a4b458d855",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {},
+      "followTf": "world"
+    },
+    "Image!4cd20mu": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/camera/cam2/h264/video"
+      },
+      "foxglovePanelTitle": "CAM 2"
+    },
+    "map!31mwoek": {
+      "zoomLevel": 2,
+      "center": {
+        "lat": 0,
+        "lon": 0
+      },
+      "customTileUrl": "",
+      "disabledTopics": [],
+      "followTopic": "",
+      "layer": "map",
+      "topicColors": {},
+      "maxNativeZoom": 18,
+      "topicConfig": {
+        "/sensor/gnss/heading/fix": {
+          "pointDisplayMode": "dot",
+          "historyMode": "all"
+        },
+        "/sensor/gnss/position/fix": {
+          "pointDisplayMode": "dot",
+          "historyMode": "all"
+        }
+      }
+    },
+    "automatepro-io-control-panel.AutomatePro IO Control Panel!2s6wjns": {
+      "connectorType": "rel",
+      "mode": "do",
+      "statsOnly": false
+    },
+    "automatepro-io-control-panel.AutomatePro IO Control Panel!46ax32e": {
+      "connectorType": "dev",
+      "mode": "ddo"
+    },
+    "automatepro-io-control-panel.AutomatePro IO Control Panel!3ems6o6": {
+      "connectorType": "rel",
+      "mode": "ddo",
+      "statsOnly": true
+    },
+    "Plot!2b7jcco": {
+      "paths": [
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_01",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": "ain 1"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_01",
+          "enabled": true,
+          "color": "#f5774d",
+          "label": "ain 2"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_03",
+          "enabled": true,
+          "color": "#f7df71",
+          "label": "ain 3"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_04",
+          "enabled": true,
+          "color": "#5cd6a9",
+          "label": "ain 4"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_05",
+          "enabled": true,
+          "color": "#61cbff",
+          "label": "ain 5"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_06",
+          "enabled": true,
+          "color": "#a395e2",
+          "label": "ain 6"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_07",
+          "enabled": true,
+          "color": "#cad660",
+          "label": "ain 7"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_08",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": "ain 8"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_09",
+          "enabled": true,
+          "color": "#f5774d",
+          "label": "ain 9"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_10",
+          "enabled": true,
+          "color": "#f7df71",
+          "label": "ain 10"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_11",
+          "enabled": true,
+          "color": "#5cd6a9",
+          "label": "ain 11"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_12",
+          "enabled": true,
+          "color": "#61cbff",
+          "label": "ain 12"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_13",
+          "enabled": true,
+          "color": "#a395e2",
+          "label": "ain 13"
+        },
+        {
+          "timestampMethod": "headerStamp",
+          "value": "/io/ain.ain_14",
+          "enabled": true,
+          "color": "#cad660",
+          "label": "ain 14"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Analog Input",
+      "minYValue": 0,
+      "maxYValue": 5000,
+      "followingViewWidth": 5
+    },
+    "automatepro-io-control-panel.AutomatePro IO Control Panel!3bm9vec": {
+      "connectorType": "rel",
+      "mode": "do",
+      "statsOnly": true
+    },
+    "StateTransitions!2t6r6gg": {
+      "paths": [
+        {
+          "value": "/io/din.din_01",
+          "timestampMethod": "headerStamp",
+          "label": "din 1"
+        },
+        {
+          "value": "/io/din.din_02",
+          "timestampMethod": "receiveTime",
+          "label": "din 2"
+        },
+        {
+          "value": "/io/din.din_03",
+          "timestampMethod": "receiveTime",
+          "label": "din 3"
+        },
+        {
+          "value": "/io/din.din_04",
+          "timestampMethod": "receiveTime",
+          "label": "din 4"
+        },
+        {
+          "value": "/io/din.din_05",
+          "timestampMethod": "receiveTime",
+          "label": "din 5"
+        },
+        {
+          "value": "/io/din.din_06",
+          "timestampMethod": "receiveTime",
+          "label": "din 6"
+        },
+        {
+          "value": "/io/din.din_07",
+          "timestampMethod": "receiveTime",
+          "label": "din 7"
+        },
+        {
+          "value": "/io/din.din_08",
+          "timestampMethod": "receiveTime",
+          "label": "din 8"
+        },
+        {
+          "value": "/io/din.din_09",
+          "timestampMethod": "receiveTime",
+          "label": "din 9"
+        },
+        {
+          "value": "/io/din.din_10",
+          "timestampMethod": "receiveTime",
+          "label": "din 10"
+        }
+      ],
+      "isSynced": true,
+      "foxglovePanelTitle": "Digital Input"
+    },
+    "CallService!3tckmtt": {
+      "requestPayload": "{}",
+      "layout": "vertical",
+      "timeoutSeconds": 10,
+      "editingMode": true,
+      "serviceName": "/io/din/request"
+    },
+    "Parameters!nybzfr": {
+      "title": "Parameters"
+    },
+    "RosOut!j679gh": {
+      "searchTerms": [],
+      "minLogLevel": 1,
+      "nameFilter": {}
+    },
+    "Tab!zrf4hp": {
+      "activeTabIdx": 6,
+      "tabs": [
+        {
+          "title": "3D",
+          "layout": {
+            "first": {
+              "first": "Image!4jaj8f5",
+              "second": "3D!38j3h5o",
+              "direction": "row"
+            },
+            "second": {
+              "first": "Image!4cd20mu",
+              "second": "map!31mwoek",
+              "direction": "row"
+            },
+            "direction": "column",
+            "splitPercentage": 46.3220675944334
+          }
+        },
+        {
+          "title": "Digital Out",
+          "layout": "automatepro-io-control-panel.AutomatePro IO Control Panel!2s6wjns"
+        },
+        {
+          "title": "Digital Drive",
+          "layout": "automatepro-io-control-panel.AutomatePro IO Control Panel!46ax32e"
+        },
+        {
+          "title": "Analog In",
+          "layout": {
+            "first": "automatepro-io-control-panel.AutomatePro IO Control Panel!3ems6o6",
+            "second": "Plot!2b7jcco",
+            "direction": "column",
+            "splitPercentage": 28.926441351888666
+          }
+        },
+        {
+          "title": "Digital In",
+          "layout": {
+            "first": "automatepro-io-control-panel.AutomatePro IO Control Panel!3bm9vec",
+            "second": {
+              "first": "StateTransitions!2t6r6gg",
+              "second": "CallService!3tckmtt",
+              "direction": "row",
+              "splitPercentage": 75.83596214511041
+            },
+            "direction": "column",
+            "splitPercentage": 27.833001988071572
+          }
+        },
+        {
+          "title": "Parameters",
+          "layout": "Parameters!nybzfr"
+        },
+        {
+          "title": "Logs",
+          "layout": "RosOut!j679gh"
+        }
+      ]
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": "Tab!zrf4hp"
+}
