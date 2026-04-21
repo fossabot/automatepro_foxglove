@@ -1,4 +1,6 @@
 # AutomatePro Foxglove 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLemvos%2Fautomatepro_foxglove.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FLemvos%2Fautomatepro_foxglove?ref=badge_shield)
+
 Enhance your AutomatePro experience with custom extensions and layouts for Foxglove Studio.
 
 ## Installation
@@ -24,3 +26,6 @@ To import a layout:
 4. Choose the downloaded .json file.
 
 For any issues during installation or usage, please refer to our [support page](https://docs.lemvos.com) or open an issue in this repository.
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLemvos%2Fautomatepro_foxglove.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FLemvos%2Fautomatepro_foxglove?ref=badge_large)
